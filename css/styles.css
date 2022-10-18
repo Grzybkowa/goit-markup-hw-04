@@ -96,6 +96,15 @@ body {
   color: var(--primary-color);
 }
 
+.hover-link {
+  display: inline-flex;
+  align-items: center;
+}
+
+.hover-link:hover .contact-icons {
+  fill: var(--primary-color);
+}
+
 .header-contact-links {
   display: flex;
   gap: 50px;
@@ -108,6 +117,15 @@ body {
   letter-spacing: 0.02em;
   text-decoration: none;
   color: var(--main-color);
+}
+
+.top-contact-title {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  color: var(--quinary-color);
 }
 
 .btn-portfolio:hover {
@@ -192,11 +210,18 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  max-width: 1600px;
   width: 100%;
-  background: var(--tertiary-color);
   padding: 200px;
   gap: 30px;
   justify-content: center;
+  background-image: linear-gradient(
+      0deg,
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url("/images/background.jpg");
+  background-size: cover;
 }
 
 .main-title {
@@ -343,3 +368,13 @@ body {
 .list-style-none {
   list-style: none;
 }
+
+.contact-icons {
+  margin-right: 10px;
+  fill: var(--quinary-color);
+} 
+
+/* .lorem-ipsum-icons {
+  display: flex;
+  justify-content: center;
+} */
