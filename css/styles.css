@@ -105,6 +105,11 @@ body {
   fill: var(--primary-color);
 }
 
+.social-media-icons:hover {
+  background-color: var(--primary-color);
+  --color1: var(--secondary-color);
+}
+
 .header-contact-links {
   display: flex;
   gap: 50px;
@@ -374,13 +379,6 @@ body {
   fill: var(--quinary-color);
 }
 
-/* .lorem-ipsum-icons-container {
-  display: flex;
-  justify-content: center;
-  width: 100%;
-  max-width: 1200px;
-} */
-
 .lorem-ipsum-icons {
   background-color: var(--quaternary-color);
   display: inline-flex;
@@ -390,4 +388,24 @@ body {
   height: 120px;
   margin-bottom: 30px;
   gap: 30px;
+}
+
+.social-media-icons-block {
+  width: 100%;
+  background: var(--secondary-color);
+  padding: 16px 0px;
+  display: inline-flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.social-media-icons {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color: var(--secondary-color);
+  fill: var(--quinary-color);
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
 }
