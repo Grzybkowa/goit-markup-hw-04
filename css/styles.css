@@ -105,11 +105,6 @@ body {
   fill: var(--primary-color);
 }
 
-.social-media-icons:hover {
-  background-color: var(--primary-color);
-  --color1: var(--secondary-color);
-}
-
 .header-contact-links {
   display: flex;
   gap: 50px;
@@ -408,4 +403,26 @@ body {
   display: inline-flex;
   justify-content: center;
   align-items: center;
+}
+
+.social-media-icons:hover {
+  background-color: var(--primary-color);
+  --color1: var(--secondary-color);
+}
+
+.client-icons {
+  width: 170px;
+  height: 92px;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+  fill: var(--quinary-color);
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.client-icons:hover {
+  border: 1px solid var(--primary-color);
+  --color1: var(--primary-color);
 }
