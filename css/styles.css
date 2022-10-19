@@ -101,6 +101,11 @@ body {
   align-items: center;
 }
 
+.contact-icons {
+  margin-right: 10px;
+  fill: var(--quinary-color);
+}
+
 .hover-link:hover .contact-icons {
   fill: var(--primary-color);
 }
@@ -180,9 +185,9 @@ body {
   align-items: center;
 }
 
-.img {
+/* .img {
   display: block;
-}
+} */
 
 .potfolio-main-wrapper {
   display: flex;
@@ -335,6 +340,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: row;
 }
 
 .footer-data {
@@ -356,6 +362,32 @@ body {
   gap: 9px;
 }
 
+.footer-icons-block {
+  display: block;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 206px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.social-media-icons-footer {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  --color1: var(--secondary-color);
+  background-color: rgb(255, 255, 255, 0.1);
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.social-media-icons-footer:hover {
+  background-color: var(--primary-color);
+}
+
 .row {
   display: flex;
   flex-wrap: wrap;
@@ -367,11 +399,6 @@ body {
 
 .list-style-none {
   list-style: none;
-}
-
-.contact-icons {
-  margin-right: 10px;
-  fill: var(--quinary-color);
 }
 
 .lorem-ipsum-icons {
@@ -425,4 +452,9 @@ body {
 .client-icons:hover {
   border: 1px solid var(--primary-color);
   --color1: var(--primary-color);
+}
+
+.description-title-h3 {
+  color: var(--secondary-color);
+  margin-bottom: 20px;
 }
